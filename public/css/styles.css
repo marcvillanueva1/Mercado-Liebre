@@ -300,14 +300,15 @@ form input{
   border-radius: 3px;
 }
 
-form button{
-  position: relative;
-  left: 43%;
-  background-color: rgb(248, 248, 255);
+.button-login{
+  display: flex;
+  justify-content: center;
+  background-color: #ebebeb;;
   color: black;
   border-radius: 3px;
-  border: solid 1px black;
 }
+
+
 
 
 
