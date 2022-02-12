@@ -177,6 +177,139 @@ nav ul {
     display: none;
 }
 
+/*FORMULARIO REGISTER*/
+
+.register{
+  background-color:rgb(240, 248, 255);
+}
+
+.register input{
+  background-color:#ebebeb
+}
+
+.name{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+ .name input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-family: italic;
+    border: solid 1px rgb(65, 105, 225);
+}
+
+.fecha_de_nacimiento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.fecha_de_nacimiento input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-family: italic;
+    border: solid 1px rgb(65, 105, 225);
+}
+
+.direccion{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.direccion input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: italic;
+  border: solid 1px rgb(65, 105, 225);
+}
+
+.rango{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+
+
+.interes{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  font-family: italic;
+}
+
+.interes label{
+  padding: 10px 0px 10px
+}
+
+.contraseña{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.contraseña input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: italic;
+  border: solid 1px rgb(65, 105, 225);
+}
+
+.button-form button{
+  background-color: rgb(248, 248, 255);
+  color: black;
+  border-radius: 3px;
+  border: solid 1px black
+}
+
+/*FORMULARIO LOGIN*/
+
+form label{
+  font-family: italic;
+  display: flex;
+  justify-content: center;
+}
+
+form input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: solid 1px rgb(65, 105, 225);
+  border-radius: 3px;
+}
+
+form button{
+  position: relative;
+  left: 43%;
+  background-color: rgb(248, 248, 255);
+  color: black;
+  border-radius: 3px;
+  border: solid 1px black;
+}
+
+
 
 
     @media (min-width: 361px) {
