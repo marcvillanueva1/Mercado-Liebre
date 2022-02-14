@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-app.listen(proces.env.PORT || 4300 ,()=>{
+app.listen(process.env.PORT || 4300 ,()=>{
     console.log('Mercado Libre prendido');
 });
 
