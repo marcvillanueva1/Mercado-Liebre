@@ -16,30 +16,36 @@
 <body>
     <header>
         <div class = "top-header">
+            <div class = "logo-barra">
+                <div class ="logo">
         <img src="images/logo-mercado-liebre.svg" alt="logo">
+    </div>
         <form class="form" action="#" method="GET">
             <input type="text" name="search" placeholder="Lugar para poner barra de búsqueda" maxlength="100">
             <button type="submit"><i class="fa fa-search"></i></button>
-            
         </form>
-        <div class = "titulo-compra-tarjeta"><p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p></div>
-        <nav>
-            <ul>
+        <p class = "cart"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        
+        
+        
+        <nav class = "menu-header">
+            <ul class = "menu-left">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
-            <ul>
+            <ul class = "menu-right">
                 <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
                 <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
+            </nav>
+        </div>
             <div class="burger-menu">
                 <i class="fas fa-bars"></i>
                 </div>
-        </nav>
-        </div>
     </header>
     <form action="/" method="GET" class = "form-login">
         <div>
