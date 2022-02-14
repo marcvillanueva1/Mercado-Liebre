@@ -16,6 +16,8 @@
   p {
     font-size: 12px;
   }
+
+  
   div.top-header {
     padding: 5%;
   }
@@ -23,9 +25,32 @@
   header {
     background-color: #eac926;
   }
+
+  
+
+  .logo-barra{
+    display:flex;
+    justify-content:space-around
+  }
+
+  header .form{
+    width: 70%;
+    display: flex;
+  }
+
+  header form button {
+    display: flex;
+    position: relative;
+    right: 20px;
+    top:23px;
+    border: none;
+    background-color: white;
+    color:gray;
+    height: 10%;
+  }
   
   header div.logo {
-    width: 50%;
+    width: 30%;
   }
   
   header div.logo {
@@ -37,7 +62,10 @@
   
   header ul li {
     list-style-type: none;
+    padding-right: 10px;
   }
+
+  
   
   header ul li a {
     text-decoration: none;
@@ -383,15 +411,10 @@ form input{
     nav ul{
         display: flex;
     }
-    nav ul li {
-        padding: 10px 10px;
-    }
-    nav ul li i{
-        padding: 0px 10px;
-    }
+    
     nav{
         display: flex;
-        justify-content: space-between;;
+        justify-content: space-around;;
     }
   }
   
@@ -418,6 +441,15 @@ form input{
      .register{
       max-width: 70%;
       margin: auto;
-     }
+     }.menu-left{
+      font-size: 90%;
+      margin-right: 10%;
+  }
+  .menu-right{
+      font-size: 90%;
+  }
+  nav ul li {
+    padding: 10px;
+  }
      
   }
