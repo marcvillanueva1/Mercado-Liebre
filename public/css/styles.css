@@ -96,15 +96,20 @@
     font-weight: normal;
   }
   
-  h3,
+  h4,
   .description {
-    color: #666;
+    color: white;
   }
+  .products article :hover .description{
+  color: gray;
+}
+
   
   .description {
     display: none;
     margin-top: 20px;
   }
+
   
   img{
       width: 100%;
@@ -140,6 +145,11 @@
     position: absolute;
     right: 20px;
     top: -15px;
+  }
+
+   .fa-truck:hover{
+    transform: rotate(-90deg);
+    transition: 450ms;
   }
   
   main section h3 {
@@ -183,14 +193,23 @@ footer article{
   color: grey;
 }
 
+.footer article i:hover {
+  color: rgb(106, 90, 205);
+}
+
 nav ul {
     display: none;
+}
+
+main .last-visit article :hover i{
+  transform: rotate(-90dg);
+  transition-duration:450ms ;
 }
 
 /*FORMULARIO REGISTER*/
 
 .register{
-  background-color:rgb(240, 248, 255);
+  background-color:rgb(238, 238, 238);
 }
 
 .register input{
@@ -300,6 +319,7 @@ form label{
   font-family: italic;
   display: flex;
   justify-content: center;
+  margin :20px;
 }
 
 form input{
@@ -316,6 +336,12 @@ form input{
   background-color: #ebebeb;;
   color: black;
   border-radius: 3px;
+  margin : 10px
+}
+
+  #enviar:hover{
+    background-color: rgb(65, 105, 225);
+    color: white;
 }
 
 
@@ -336,7 +362,7 @@ form input{
     .burger-menu{
         display: none;
     }
-    main section article {
+    main section article:hover {
       box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
   
@@ -384,6 +410,14 @@ form input{
         max-width: 90%;
         margin:auto;
         justify-content: space-around;
+     }
+     .form-login{
+       max-width: 70%;
+       margin: auto;
+     }
+     .register{
+      max-width: 70%;
+      margin: auto;
      }
      
   }
