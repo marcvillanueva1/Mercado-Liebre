@@ -42,7 +42,7 @@
     display: flex;
     position: relative;
     right: 20px;
-    top:23px;
+    top:22px;
     border: none;
     background-color: white;
     color:gray;
@@ -451,5 +451,6 @@ form input{
   nav ul li {
     padding: 10px;
   }
+
      
   }
